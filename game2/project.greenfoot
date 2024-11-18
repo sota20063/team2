@@ -3,17 +3,27 @@ class.A.image=man01.png
 class.B.image=wombat.png
 class.C.image=snowman.png
 class.D.image=smiley4.png
+<<<<<<< HEAD
 class.musi_001.image=001.jpg
 dependency1.from=MyWorld
 dependency1.to=musi_001
 dependency1.type=UsesDependency
+=======
+class.musi_002.image=002.png
+>>>>>>> f2ce4e89703b0972661496dfcbc754cbdd6d473e
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 height=608
 package.numDependencies=1
 package.numTargets=6
+=======
+height=626
+package.numDependencies=0
+package.numTargets=7
+>>>>>>> f2ce4e89703b0972661496dfcbc754cbdd6d473e
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -57,21 +67,44 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
+<<<<<<< HEAD
 target5.name=musi_001
+=======
+target5.name=musi_003
+>>>>>>> f2ce4e89703b0972661496dfcbc754cbdd6d473e
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
 target6.name=MyWorld
+=======
+target6.name=musi_002
+>>>>>>> f2ce4e89703b0972661496dfcbc754cbdd6d473e
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
+<<<<<<< HEAD
+=======
+target7.height=50
+target7.name=MyWorld
+target7.showInterface=false
+target7.type=ClassTarget
+target7.width=80
+target7.x=0
+target7.y=0
+>>>>>>> f2ce4e89703b0972661496dfcbc754cbdd6d473e
 version=3.0.0
-width=825
+width=845
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=559
 yPosition=239
+=======
+xPosition=998
+yPosition=277
+>>>>>>> f2ce4e89703b0972661496dfcbc754cbdd6d473e
