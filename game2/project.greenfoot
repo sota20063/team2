@@ -1,13 +1,20 @@
 #Greenfoot project file
 class.A.image=man01.png
-class.B.image=wombat.png
 class.C.image=snowman.png
 class.D.image=smiley4.png
+<<<<<<< HEAD
 class.musi_002.image=002.png
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
+=======
+class.musi_003.image=\u753B\u50CF1.png
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+>>>>>>> cb0a0f6aa063ae6b1fdacbdf6d4c6e254cefa051
 height=608
 package.numDependencies=0
 package.numTargets=6
@@ -54,7 +61,11 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
+<<<<<<< HEAD
 target5.name=musi_002
+=======
+target5.name=musi_003
+>>>>>>> cb0a0f6aa063ae6b1fdacbdf6d4c6e254cefa051
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
@@ -70,5 +81,10 @@ target6.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=1026
 yPosition=387
+=======
+xPosition=925
+yPosition=355
+>>>>>>> cb0a0f6aa063ae6b1fdacbdf6d4c6e254cefa051
