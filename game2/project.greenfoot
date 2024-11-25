@@ -4,9 +4,17 @@ class.B.image=wombat.png
 class.C.image=snowman.png
 class.D.image=smiley4.png
 class.MyWorld.image=hana.png
+<<<<<<< HEAD
 class.musi_001.image=001.jpg
 class.musi_002.image=002.png
 class.musi_003.image=\u753B\u50CF1.png
+=======
+class.heart.image=\u306F\u30FC\u3068.png
+class.money.image=\u304A\u304B\u306D.png
+class.musi_001.image=001-removebg-preview.png
+class.musi_002.image=002-removebg-preview.png
+class.musi_003.image=003-removebg-preview.png
+>>>>>>> 5790194eb321ac692e7af01026a7055a89ba3459
 dependency1.from=MyWorld
 dependency1.to=musi_001
 dependency1.type=UsesDependency
@@ -16,7 +24,11 @@ editor.fx.0.x=0
 editor.fx.0.y=0
 height=626
 package.numDependencies=1
+<<<<<<< HEAD
 package.numTargets=8
+=======
+package.numTargets=10
+>>>>>>> 5790194eb321ac692e7af01026a7055a89ba3459
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -38,6 +50,13 @@ target1.type=ClassTarget
 target1.width=80
 target1.x=0
 target1.y=0
+target10.height=50
+target10.name=MyWorld
+target10.showInterface=false
+target10.type=ClassTarget
+target10.width=80
+target10.x=0
+target10.y=0
 target2.height=50
 target2.name=B
 target2.showInterface=false
@@ -60,35 +79,58 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
-target5.name=musi_003
+target5.name=money
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
 target6.name=musi_001
+=======
+target6.name=musi_003
+>>>>>>> 5790194eb321ac692e7af01026a7055a89ba3459
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
+<<<<<<< HEAD
 target7.name=musi_002
+=======
+target7.name=musi_001
+>>>>>>> 5790194eb321ac692e7af01026a7055a89ba3459
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
-target8.name=MyWorld
+target8.name=musi_002
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=80
 target8.x=0
 target8.y=0
+<<<<<<< HEAD
 version=3.0.0
 width=845
 world.lastInstantiated=MyWorld
 xPosition=910
 yPosition=176
+=======
+target9.height=50
+target9.name=heart
+target9.showInterface=false
+target9.type=ClassTarget
+target9.width=80
+target9.x=0
+target9.y=0
+version=3.0.0
+width=845
+world.lastInstantiated=MyWorld
+xPosition=563
+yPosition=267
+>>>>>>> 5790194eb321ac692e7af01026a7055a89ba3459
