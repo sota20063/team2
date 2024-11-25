@@ -3,20 +3,8 @@ class.A.image=man01.png
 class.B.image=wombat.png
 class.C.image=snowman.png
 class.D.image=smiley4.png
-<<<<<<< HEAD
-class.musi_001.image=001.jpg
-class.musi_002.image=002.png
-dependency1.from=MyWorld
-dependency1.to=musi_001
-dependency1.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=642
-=======
 class.MyWorld.image=hana.png
-class.musi_001.image=001.jpg
+class.musi_001.image=musi_001.png
 class.musi_002.image=002.png
 class.musi_003.image=\u753B\u50CF1.png
 dependency1.from=MyWorld
@@ -24,10 +12,9 @@ dependency1.to=musi_001
 dependency1.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
+editor.fx.0.x=700
+editor.fx.0.y=255
 height=626
->>>>>>> 34258a1bb9b81206f021fb8b22e548cf7ef51e01
 package.numDependencies=1
 package.numTargets=8
 project.charset=UTF-8
@@ -103,10 +90,5 @@ target8.y=0
 version=3.0.0
 width=845
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=978
-yPosition=372
-=======
-xPosition=563
-yPosition=267
->>>>>>> 34258a1bb9b81206f021fb8b22e548cf7ef51e01
+xPosition=971
+yPosition=325
