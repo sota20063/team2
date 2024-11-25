@@ -14,6 +14,25 @@ public class musi_002 extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if(Greenfoot.isKeyDown("w")) 
+        {
+            setRotation(270);
+            move(6);
+        }
+        if (Greenfoot.isKeyDown( "a" ))
+        {
+            setRotation(180);
+            move(4);
+        }
+        if (Greenfoot.isKeyDown( "s"))
+        {
+            setRotation(90);
+            move(6);
+        }
+        if (Greenfoot.isKeyDown( "d")) 
+        {
+            setRotation(0);
+            move(4);
+        }// Add your action code// Add your action code here.
     }    
 }
