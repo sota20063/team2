@@ -1,7 +1,9 @@
 #Greenfoot project file
 class.A.image=man01.png
+class.B.image=wombat.png
 class.C.image=snowman.png
 class.D.image=smiley4.png
+<<<<<<< HEAD
 class.musi_003.image=\u753B\u50CF1.png
 editor.fx.0.height=0
 editor.fx.0.width=0
@@ -10,6 +12,22 @@ editor.fx.0.y=0
 height=608
 package.numDependencies=0
 package.numTargets=7
+=======
+class.MyWorld.image=hana.png
+class.musi_001.image=001.jpg
+class.musi_002.image=002.png
+class.musi_003.image=\u753B\u50CF1.png
+dependency1.from=MyWorld
+dependency1.to=musi_001
+dependency1.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
+height=626
+package.numDependencies=1
+package.numTargets=8
+>>>>>>> 34258a1bb9b81206f021fb8b22e548cf7ef51e01
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -60,21 +78,44 @@ target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
 target6.name=musi_002
+=======
+target6.name=musi_001
+>>>>>>> 34258a1bb9b81206f021fb8b22e548cf7ef51e01
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
+<<<<<<< HEAD
 target7.name=MyWorld
+=======
+target7.name=musi_002
+>>>>>>> 34258a1bb9b81206f021fb8b22e548cf7ef51e01
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
+<<<<<<< HEAD
+=======
+target8.height=50
+target8.name=MyWorld
+target8.showInterface=false
+target8.type=ClassTarget
+target8.width=80
+target8.x=0
+target8.y=0
+>>>>>>> 34258a1bb9b81206f021fb8b22e548cf7ef51e01
 version=3.0.0
-width=825
+width=845
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=925
 yPosition=355
+=======
+xPosition=563
+yPosition=267
+>>>>>>> 34258a1bb9b81206f021fb8b22e548cf7ef51e01
