@@ -14,25 +14,19 @@ public class musi_001 extends Actor
      */
     public void act() 
     {
-        if(Greenfoot.isKeyDown("w")) 
-        {
-            setRotation(270);
-            move(4);
+        int x = getX();
+        int y = getY();
+        if( Greenfoot.isKeyDown( "w" ) ){
+            setLocation( x,y-4 );
         }
-        if (Greenfoot.isKeyDown( "a" ))
-        {
-            setRotation(180);
-            move(4);
+        if( Greenfoot.isKeyDown( "a" ) ){
+            setLocation( x-4,y );
         }
-        if (Greenfoot.isKeyDown( "s"))
-        {
-            setRotation(90);
-            move(4);
+        if( Greenfoot.isKeyDown( "s" ) ){
+            setLocation( x,y+4 );
         }
-        if (Greenfoot.isKeyDown( "d")) 
-        {
-            setRotation(0);
-            move(4);
+        if( Greenfoot.isKeyDown( "d" ) ){
+            setLocation( x+4,y );
         }// Add your action code here.
     }    
 }
