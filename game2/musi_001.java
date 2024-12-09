@@ -14,10 +14,7 @@ public class musi_001 extends Actor
      */
     public void act() 
     {
-<<<<<<< HEAD
-        
-        
-=======
+
         if(Greenfoot.isKeyDown("w")) 
         {
             setRotation(270);
@@ -38,6 +35,6 @@ public class musi_001 extends Actor
             setRotation(0);
             move(4);
         }// Add your action code here.
->>>>>>> 4f43840d036c3b81a9e40d27cafbd06ac6011513
+
     }    
 }

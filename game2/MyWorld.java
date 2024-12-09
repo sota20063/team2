@@ -20,5 +20,14 @@ public class MyWorld extends World
         super(600, 300, 1); 
 
         addObject( new musi_001(), 300, 200);
+        for(int i=0;i<5;i++){
+         int A = 50;
+        int B = 800;
+        int x = A + (int)(Math.random()*((B-A)+1));
+        A=0;
+        B=450;
+        int y = A + (int)(Math.random()*((B-A)+1));
+         addObject(new money(), x,y);
+        }
     }
 }
