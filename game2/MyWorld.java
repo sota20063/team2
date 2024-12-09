@@ -1,3 +1,4 @@
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -17,8 +18,7 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
 
-        super(600, 300, 1); 
-
+        super(600, 300, 1);
         addObject( new musi_001(), 300, 200);
         for(int i=0;i<5;i++){
          int A = 50;
