@@ -14,6 +14,11 @@ public class money extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        getImage().scale( 50,50);
+        int A = 0;
+        int B = 360;
+        int C = A + (int)(Math.random()*((B-A)+1));
+        setRotation(C);
+        move(5);// Add your action code here.
     }    
 }
