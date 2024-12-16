@@ -39,9 +39,7 @@ public class MyWorld extends World
         int y = A + (int)(Math.random()*((B-A)+1));
          addObject(new money(), x,y);
         }
-<<<<<<< HEAD
-        
-=======
+
         for(int i=0;i<5;i++){
          int A = 50;
         int B = 800;
@@ -51,7 +49,7 @@ public class MyWorld extends World
         int y = A + (int)(Math.random()*((B-A)+1));
          addObject(new heart(), x,y);
         }
->>>>>>> 5ceacb2d20ad3987123e5e59592b227a1808a124
+
     }
     
 }
