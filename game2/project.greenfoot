@@ -5,6 +5,7 @@ class.C.image=snowman.png
 class.D.image=smiley4.png
 class.MyWorld.image=hana.png
 class.heart.image=\u306F\u30FC\u3068.png
+class.home.image=space1.jpg
 class.money.image=\u304A\u304B\u306D.png
 class.musi_001.image=001-removebg-preview.png
 class.musi_002.image=002-removebg-preview.png
@@ -13,15 +14,58 @@ dependency1.from=MyWorld
 dependency1.to=musi_001
 dependency1.type=UsesDependency
 dependency2.from=MyWorld
-dependency2.to=money
+<<<<<<< HEAD
+dependency2.to=musi_002
 dependency2.type=UsesDependency
+dependency3.from=MyWorld
+dependency3.to=musi_003
+dependency3.type=UsesDependency
+dependency4.from=MyWorld
+dependency4.to=money
+dependency4.type=UsesDependency
+dependency5.from=MyWorld
+dependency5.to=home
+dependency5.type=UsesDependency
+dependency6.from=home
+dependency6.to=MyWorld
+dependency6.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
+<<<<<<< HEAD
 editor.fx.0.x=913
 editor.fx.0.y=276
 height=637
 package.numDependencies=2
+=======
+editor.fx.0.x=558
+editor.fx.0.y=128
+height=1056
+package.numDependencies=6
+package.numTargets=11
+=======
+dependency2.to=money
+dependency2.type=UsesDependency
+dependency3.from=MyWorld
+dependency3.to=heart
+dependency3.type=UsesDependency
+dependency4.from=heart
+dependency4.to=musi_001
+dependency4.type=UsesDependency
+dependency5.from=heart
+dependency5.to=musi_002
+dependency5.type=UsesDependency
+dependency6.from=heart
+dependency6.to=musi_003
+dependency6.type=UsesDependency
+editor.fx.0.height=1056
+editor.fx.0.width=1936
+editor.fx.0.x=-8
+editor.fx.0.y=-8
+height=637
+package.numDependencies=6
+>>>>>>> 3f33797ddb8af1e943fe6431dd249f55e9acd88a
 package.numTargets=10
+>>>>>>> 5ceacb2d20ad3987123e5e59592b227a1808a124
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -50,6 +94,13 @@ target10.type=ClassTarget
 target10.width=80
 target10.x=0
 target10.y=0
+target11.height=50
+target11.name=home
+target11.showInterface=false
+target11.type=ClassTarget
+target11.width=80
+target11.x=0
+target11.y=0
 target2.height=50
 target2.name=B
 target2.showInterface=false
@@ -107,7 +158,19 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
+width=1936
+world.lastInstantiated=home
+xPosition=0
+yPosition=0
+=======
 width=845
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=612
 yPosition=306
+=======
+xPosition=843
+yPosition=235
+>>>>>>> 5ceacb2d20ad3987123e5e59592b227a1808a124
+>>>>>>> 3f33797ddb8af1e943fe6431dd249f55e9acd88a
