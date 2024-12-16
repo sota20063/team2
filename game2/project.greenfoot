@@ -14,6 +14,7 @@ dependency1.from=MyWorld
 dependency1.to=musi_001
 dependency1.type=UsesDependency
 dependency2.from=MyWorld
+<<<<<<< HEAD
 dependency2.to=musi_002
 dependency2.type=UsesDependency
 dependency3.from=MyWorld
@@ -35,6 +36,29 @@ editor.fx.0.y=128
 height=1056
 package.numDependencies=6
 package.numTargets=11
+=======
+dependency2.to=money
+dependency2.type=UsesDependency
+dependency3.from=MyWorld
+dependency3.to=heart
+dependency3.type=UsesDependency
+dependency4.from=heart
+dependency4.to=musi_001
+dependency4.type=UsesDependency
+dependency5.from=heart
+dependency5.to=musi_002
+dependency5.type=UsesDependency
+dependency6.from=heart
+dependency6.to=musi_003
+dependency6.type=UsesDependency
+editor.fx.0.height=1056
+editor.fx.0.width=1936
+editor.fx.0.x=-8
+editor.fx.0.y=-8
+height=637
+package.numDependencies=6
+package.numTargets=10
+>>>>>>> 5ceacb2d20ad3987123e5e59592b227a1808a124
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -127,7 +151,14 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=1936
 world.lastInstantiated=home
 xPosition=0
 yPosition=0
+=======
+width=845
+world.lastInstantiated=MyWorld
+xPosition=843
+yPosition=235
+>>>>>>> 5ceacb2d20ad3987123e5e59592b227a1808a124

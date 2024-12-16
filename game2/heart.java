@@ -14,6 +14,43 @@ public class heart extends Actor
      */
     public void act() 
     {
+        Actor actor1 = getOneIntersectingObject( musi_001.class );
+        Actor actor2 = getOneIntersectingObject( musi_002.class );
+        Actor actor3 = getOneIntersectingObject( musi_003.class );
+        
+        
+        
+        
+        
+        if( isAtEdge() ){
+            getWorld().removeObject( this );
+        }
+        
+        if( actor1 != null ){
+            getWorld().removeObject( this );
+        }      
+       
+        if( actor2 != null ){
+            getWorld().removeObject( this );
+        } 
+        
+        if( actor3 != null ){
+            getWorld().removeObject( this );
+        } 
+        
+        
+        int A = 0;
+        int B = 360;
+        int C = A + (int)(Math.random()*((B-A)+1));
+ 
+        setRotation(C);
+        move(6);
+        
+        
         // Add your action code here.
-    }    
+    }   
+    public heart()
+    {   
+        getImage().scale( 100, 100 );
+    }
 }
