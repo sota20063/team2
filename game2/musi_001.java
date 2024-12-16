@@ -14,10 +14,15 @@ public class musi_001 extends Actor
      */
     public void act() 
     {
+
+
         int x = getX();
         int y = getY();
         if( Greenfoot.isKeyDown( "w" ) ){
             setLocation( x,y-4 );
+
+
+        }
 
         if( Greenfoot.isKeyDown( "a" ) ){
             setLocation( x-4,y );
