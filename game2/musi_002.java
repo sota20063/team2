@@ -18,16 +18,16 @@ public class musi_002 extends Actor
         int x = getX();
         int y = getY();
         if( Greenfoot.isKeyDown( "w" ) ){
-            setLocation( x,y-4 );
+            setLocation( x,y-6 );
         }
         if( Greenfoot.isKeyDown( "a" ) ){
-            setLocation( x-4,y );
+            setLocation( x-2,y );
         }
         if( Greenfoot.isKeyDown( "s" ) ){
-            setLocation( x,y+4 );
+            setLocation( x,y+6 );
         }
         if( Greenfoot.isKeyDown( "d" ) ){
-            setLocation( x+4,y );
+            setLocation( x+2,y );
         }
     }    
 }

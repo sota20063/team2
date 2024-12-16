@@ -13,8 +13,10 @@ class.musi_003.image=003-removebg-preview.png
 dependency1.from=MyWorld
 dependency1.to=musi_001
 dependency1.type=UsesDependency
+dependency10.from=heart
+dependency10.to=musi_003
+dependency10.type=UsesDependency
 dependency2.from=MyWorld
-<<<<<<< HEAD
 dependency2.to=musi_002
 dependency2.type=UsesDependency
 dependency3.from=MyWorld
@@ -24,13 +26,29 @@ dependency4.from=MyWorld
 dependency4.to=money
 dependency4.type=UsesDependency
 dependency5.from=MyWorld
-dependency5.to=home
+dependency5.to=heart
 dependency5.type=UsesDependency
-dependency6.from=home
-dependency6.to=MyWorld
+dependency6.from=MyWorld
+dependency6.to=home
 dependency6.type=UsesDependency
+dependency7.from=home
+dependency7.to=MyWorld
+dependency7.type=UsesDependency
+dependency8.from=heart
+dependency8.to=musi_001
+dependency8.type=UsesDependency
+dependency9.from=heart
+dependency9.to=musi_002
+dependency9.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
+<<<<<<< HEAD
+editor.fx.0.x=552
+editor.fx.0.y=100
+height=637
+package.numDependencies=10
+package.numTargets=11
+=======
 <<<<<<< HEAD
 editor.fx.0.x=913
 editor.fx.0.y=276
@@ -66,6 +84,7 @@ package.numDependencies=6
 >>>>>>> 3f33797ddb8af1e943fe6431dd249f55e9acd88a
 package.numTargets=10
 >>>>>>> 5ceacb2d20ad3987123e5e59592b227a1808a124
+>>>>>>> 7207174e1589868633208809fc8cdb83018aada3
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -158,13 +177,12 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=1936
-world.lastInstantiated=home
-xPosition=0
-yPosition=0
-=======
 width=845
+<<<<<<< HEAD
+world.lastInstantiated=home
+xPosition=843
+yPosition=235
+=======
 world.lastInstantiated=MyWorld
 <<<<<<< HEAD
 xPosition=612
@@ -174,3 +192,4 @@ xPosition=843
 yPosition=235
 >>>>>>> 5ceacb2d20ad3987123e5e59592b227a1808a124
 >>>>>>> 3f33797ddb8af1e943fe6431dd249f55e9acd88a
+>>>>>>> 7207174e1589868633208809fc8cdb83018aada3
