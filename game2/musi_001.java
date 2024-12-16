@@ -14,13 +14,19 @@ public class musi_001 extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3abb3ba1e992cb2924d8c382ec037f21a0a3b131
         int x = getX();
         int y = getY();
         if( Greenfoot.isKeyDown( "w" ) ){
             setLocation( x,y-4 );
 
+<<<<<<< HEAD
         }
+=======
+>>>>>>> 3abb3ba1e992cb2924d8c382ec037f21a0a3b131
         if( Greenfoot.isKeyDown( "a" ) ){
             setLocation( x-4,y );
         }
@@ -32,4 +38,5 @@ public class musi_001 extends Actor
         }// Add your action code here.
 
     }    
+}
 }
