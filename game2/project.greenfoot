@@ -12,7 +12,6 @@ class.musi_003.image=003-removebg-preview.png
 dependency1.from=MyWorld
 dependency1.to=musi_001
 dependency1.type=UsesDependency
-<<<<<<< HEAD
 dependency2.from=MyWorld
 dependency2.to=money
 dependency2.type=UsesDependency
@@ -22,14 +21,6 @@ editor.fx.0.x=552
 editor.fx.0.y=100
 height=626
 package.numDependencies=2
-=======
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=913
-editor.fx.0.y=276
-height=1047
-package.numDependencies=1
->>>>>>> 18a9b74372add52b43db884c695270896c8cd11e
 package.numTargets=10
 project.charset=UTF-8
 publish.hasSource=false
@@ -116,17 +107,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-width=974
+width=845
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=876
-yPosition=226
-=======
-<<<<<<< HEAD
-xPosition=953
-yPosition=0
-=======
-xPosition=845
-yPosition=309
->>>>>>> 8d575da3d1a0475cec9cebe8ee231ad44345c69e
->>>>>>> 18a9b74372add52b43db884c695270896c8cd11e
+xPosition=629
+yPosition=395
