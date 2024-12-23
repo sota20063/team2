@@ -51,13 +51,6 @@ public class MyWorld extends World
             int y = A + (int)(Math.random()*((B-A)+1));
             addObject(new heart(), x,y);
         }
-<<<<<<< HEAD
-            
-
-       
-=======
->>>>>>> 3a4a4a3d0c5ed7c02d363c5adfc150fadfa57909
-
     }
     
 }
