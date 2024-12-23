@@ -14,25 +14,20 @@ public class musi_002 extends Actor
      */
     public void act() 
     {
-        if(Greenfoot.isKeyDown("w")) 
-        {
-            setRotation(270);
-            move(6);
+        getImage().scale( 80, 100 );
+        int x = getX();
+        int y = getY();
+        if( Greenfoot.isKeyDown( "w" ) ){
+            setLocation( x,y-6 );
         }
-        if (Greenfoot.isKeyDown( "a" ))
-        {
-            setRotation(180);
-            move(4);
+        if( Greenfoot.isKeyDown( "a" ) ){
+            setLocation( x-2,y );
         }
-        if (Greenfoot.isKeyDown( "s"))
-        {
-            setRotation(90);
-            move(6);
+        if( Greenfoot.isKeyDown( "s" ) ){
+            setLocation( x,y+6 );
         }
-        if (Greenfoot.isKeyDown( "d")) 
-        {
-            setRotation(0);
-            move(4);
-        }// Add your action code// Add your action code here.
+        if( Greenfoot.isKeyDown( "d" ) ){
+            setLocation( x+2,y );
+        }
     }    
 }
