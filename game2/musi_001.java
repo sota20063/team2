@@ -15,8 +15,6 @@ public class musi_001 extends Actor
     public void act() 
     {
 
-
-<<<<<<< HEAD
         getImage().scale( 50, 100 );
 
 
@@ -26,13 +24,8 @@ public class musi_001 extends Actor
         getImage().scale( 50, 100 );
 
 
-=======
-
-
         getImage().scale( 50, 100 );
 
-
->>>>>>> 3a4a4a3d0c5ed7c02d363c5adfc150fadfa57909
         int x = getX();
         int y = getY();
         if( Greenfoot.isKeyDown( "w" ) ){
