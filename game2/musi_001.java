@@ -15,9 +15,14 @@ public class musi_001 extends Actor
     public void act() 
     {
 
+
         getImage().scale( 50, 100 );
 
 
+
+
+
+        getImage().scale( 50, 100 );
 
 
         int x = getX();
