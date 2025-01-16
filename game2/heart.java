@@ -30,7 +30,7 @@ public class heart extends Actor
         if( isAtEdge() ){
             getWorld().removeObject( this );
         }
-        
+        s
         if( actor1 != null ){
             getWorld().removeObject( this );
         }      
@@ -49,4 +49,8 @@ public class heart extends Actor
         
         // Add your action code here.
     }   
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8bd055dfdab08fa71da8d37b4647a438cb9f4ce2
