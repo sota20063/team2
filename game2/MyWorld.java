@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-
+    private Counter counter;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -18,6 +18,8 @@ public class MyWorld extends World
     {    
 
         super(600, 300, 1);
+         counter = new Counter();
+        addObject(counter,50,20);
         if(home.counter==1)
         {
             addObject( new musi_001(), 300, 200); 
@@ -47,12 +49,11 @@ public class MyWorld extends World
         A=0;
         B=450;
         int y = A + (int)(Math.random()*((B-A)+1));
-         addObject(new heart(), x,y);
+         addObject(new heart(counter), x,y);
         }
-<<<<<<< HEAD
-
-=======
->>>>>>> 476ef9aab0b9d71e84b1625da32a07a70263202a
+        
     }
-    
+    public Counter getCounter(){
+         return counter;   
+    }
 }
