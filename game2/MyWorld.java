@@ -22,27 +22,23 @@ public class MyWorld extends World
         addObject(counter,50,20);
         if(home.counter==1)
         {
-            addObject( new musi_001(), 300, 200); 
+            addObject( new musi_001(), 300, 200);
+            addObject( new A(), 300, 220);
         }
         if(home.counter==2)
         {
-            addObject( new musi_002(), 300, 200); 
+            addObject( new musi_002(), 300, 200);
+            addObject( new A2(), 300, 220);
         }
         if(home.counter==3)
         {
-            addObject( new musi_003(), 300, 200); 
-        }
-        for(int i=0;i<5;i++){
-         int A = 50;
-        int B = 800;
-        int x = A + (int)(Math.random()*((B-A)+1));
-        A=0;
-        B=450;
-        int y = A + (int)(Math.random()*((B-A)+1));
-         addObject(new money(), x,y);
+            addObject( new musi_003(), 300, 200);
+            addObject( new A3(), 300, 220);
         }
 
+        
         for(int i=0;i<5;i++){
+<<<<<<< HEAD
          int A = 50;
         int B = 800;
         int x = A + (int)(Math.random()*((B-A)+1));
@@ -57,3 +53,26 @@ public class MyWorld extends World
          return counter;   
     }
 }
+=======
+           int A = 50;
+           int B = 800;
+           int x = A + (int)(Math.random()*((B-A)+1));
+           A=0;
+           B=450;
+           int y = A + (int)(Math.random()*((B-A)+1));
+           addObject(new money(), x,y);
+        }
+        for(int i=0;i<5;i++){
+            int A = 50;
+            int B = 800;
+            int x = A + (int)(Math.random()*((B-A)+1));
+            A=0;
+            B=450;
+            int y = A + (int)(Math.random()*((B-A)+1));
+            addObject(new heart(), x,y);
+        }
+
+    }
+    
+}
+>>>>>>> f3511e1b04601a9f1988f0256a4cd48577aed815
