@@ -47,6 +47,53 @@ editor.fx.0.y=100
 height=637
 package.numDependencies=10
 package.numTargets=11
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+editor.fx.0.x=913
+editor.fx.0.y=276
+>>>>>>> 03481b6beeb7383eea6243fcc2b131a9f708336b
+height=637
+package.numDependencies=2
+=======
+editor.fx.0.x=558
+editor.fx.0.y=128
+height=1056
+package.numDependencies=6
+package.numTargets=11
+=======
+dependency2.to=money
+dependency2.type=UsesDependency
+dependency3.from=MyWorld
+dependency3.to=heart
+dependency3.type=UsesDependency
+dependency4.from=heart
+dependency4.to=musi_001
+dependency4.type=UsesDependency
+dependency5.from=heart
+dependency5.to=musi_002
+dependency5.type=UsesDependency
+dependency6.from=heart
+dependency6.to=musi_003
+dependency6.type=UsesDependency
+editor.fx.0.height=1056
+editor.fx.0.width=1936
+editor.fx.0.x=-8
+editor.fx.0.y=-8
+height=637
+package.numDependencies=6
+>>>>>>> 3f33797ddb8af1e943fe6431dd249f55e9acd88a
+package.numTargets=10
+>>>>>>> 5ceacb2d20ad3987123e5e59592b227a1808a124
+>>>>>>> 7207174e1589868633208809fc8cdb83018aada3
+>>>>>>> 1b410fc8d70321381b12841b4c609e54550b685f
+>>>>>>> 3a4a4a3d0c5ed7c02d363c5adfc150fadfa57909
+>>>>>>> d25e72aa356e1873d9cab79a69a9274b46e9bfcc
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -60,7 +107,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=42
+simulation.speed=37
 target1.height=50
 target1.name=A
 target1.showInterface=false
