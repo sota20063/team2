@@ -20,15 +20,18 @@ public class MyWorld extends World
         super(600, 300, 1);
         if(home.counter==1)
         {
-            addObject( new musi_001(), 300, 200); 
+            addObject( new musi_001(), 300, 200);
+            addObject( new A(), 300, 220);
         }
         if(home.counter==2)
         {
-            addObject( new musi_002(), 300, 200); 
+            addObject( new musi_002(), 300, 200);
+            addObject( new A2(), 300, 220);
         }
         if(home.counter==3)
         {
-            addObject( new musi_003(), 300, 200); 
+            addObject( new musi_003(), 300, 200);
+            addObject( new A3(), 300, 220);
         }
         for(int i=0;i<5;i++){
          int A = 50;
@@ -39,16 +42,16 @@ public class MyWorld extends World
         int y = A + (int)(Math.random()*((B-A)+1));
          addObject(new money(), x,y);
         }
-
         for(int i=0;i<5;i++){
-         int A = 50;
-        int B = 800;
-        int x = A + (int)(Math.random()*((B-A)+1));
-        A=0;
-        B=450;
-        int y = A + (int)(Math.random()*((B-A)+1));
-         addObject(new heart(), x,y);
+            int A = 50;
+            int B = 800;
+            int x = A + (int)(Math.random()*((B-A)+1));
+            A=0;
+            B=450;
+            int y = A + (int)(Math.random()*((B-A)+1));
+            addObject(new heart(), x,y);
         }
+
     }
     
 }
