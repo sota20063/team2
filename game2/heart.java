@@ -50,5 +50,4 @@ public class heart extends Actor
         // Add your action code here.
     }   
 }
-}
 
