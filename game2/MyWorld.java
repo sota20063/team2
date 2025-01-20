@@ -33,30 +33,39 @@ public class MyWorld extends World
 
         
         for(int i=0;i<5;i++){
-           int A = 50;
-           int B = 800;
-           int x = A + (int)(Math.random()*((B-A)+1));
-           A=0;
-           B=450;
-           int y = A + (int)(Math.random()*((B-A)+1));
-           addObject(new money(), x,y);
+           int[] x = {50,200,300,400,500};
+            int[] y = {50,250};
+            
+            
+            int A = 0;
+            int B = 4;
+            int xx = A + (int)(Math.random()*((B-A)+1));
+            A=0;
+            B=1;
+            int yy = A + (int)(Math.random()*((B-A)+1));
+            
+           addObject(new money(), x[xx],y[yy]);
         }
 
         for(int i=0;i<5;i++){
-            int A = 50;
-            int B = 800;
-            int x = A + (int)(Math.random()*((B-A)+1));
-            A=0;
-            B=450;
-            int y = A + (int)(Math.random()*((B-A)+1));
-            addObject(new heart(), x,y);
-        }
-<<<<<<< HEAD
+            int[] x = {50,200,300,400,500};
+            int[] y = {50,250};
             
+            
+            int A = 0;
+            int B = 4;
+            int xx = A + (int)(Math.random()*((B-A)+1));
+            A=0;
+            B=1;
+            int yy = A + (int)(Math.random()*((B-A)+1));
+            
+            
+            addObject(new heart(), x[xx],y[yy]);
+        }
 
+            
        
-=======
->>>>>>> 3a4a4a3d0c5ed7c02d363c5adfc150fadfa57909
+
 
     }
     

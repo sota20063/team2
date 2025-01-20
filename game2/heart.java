@@ -14,11 +14,13 @@ public class heart extends Actor
      */
     public void act() 
     {
+        getImage().scale( 100, 100 );
+        
         Actor actor1 = getOneIntersectingObject( musi_001.class );
         Actor actor2 = getOneIntersectingObject( musi_002.class );
         Actor actor3 = getOneIntersectingObject( musi_003.class );
         
-        getImage().scale( 100, 100 );
+        
         int A = 0;
         int B = 360;
         int C = A + (int)(Math.random()*((B-A)+1));
@@ -26,9 +28,10 @@ public class heart extends Actor
         setRotation(C);
         move(6);
         
-        /*削除のプログラム部分でnullpointerが出で来るので3回目のスプリントで追加する
+        //*削除のプログラム部分でnullpointerが出で来るので3回目のスプリントで追加する
         if( isAtEdge() ){
             getWorld().removeObject( this );
+           
         }
         
         if( actor1 != null ){
@@ -42,7 +45,7 @@ public class heart extends Actor
         if( actor3 != null ){
             getWorld().removeObject( this );
         } 
-        */
+        //*/
         
         
         
