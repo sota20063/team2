@@ -24,6 +24,7 @@ public class heart extends Actor
         Actor actor2 = getOneIntersectingObject( musi_002.class );
         Actor actor3 = getOneIntersectingObject( musi_003.class );
         
+        
         getImage().scale( 100, 100 );
         int A = 0;
         int B = 360;
@@ -40,7 +41,7 @@ public class heart extends Actor
        if(getWorld() != null){
             int x = getX();
             int y = getY();
-        if(isTouching(musi_001.class)|| isTouching(musi_002.class) || isTouching(musi_003.class))
+        if(isTouching(A.class)|| isTouching(A2.class) || isTouching(A3.class))
         {
             if(counter != null){
             counter.addValue(10);
