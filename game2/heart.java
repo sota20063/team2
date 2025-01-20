@@ -8,10 +8,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class heart extends Actor
 {
+    private Counter counter;
     /**
      * Act - do whatever the heart wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public heart(Counter counter)
+    {
+        this.counter = counter;
+        getImage().scale( 50, 50);
+    }
     public void act() 
     {
         Actor actor1 = getOneIntersectingObject( musi_001.class );
@@ -26,12 +32,30 @@ public class heart extends Actor
         setRotation(C);
         move(6);
         
-        /*削除のプログラム部分でnullpointerが出で来るので3回目のスプリントで追加する
+
+        //削除のプログラム部分でnullpointerが出で来るので3回目のスプリントで追加する
         if( isAtEdge() ){
             getWorld().removeObject( this );
+       }
+       if(getWorld() != null){
+            int x = getX();
+            int y = getY();
+        if(isTouching(musi_001.class)|| isTouching(musi_002.class) || isTouching(musi_003.class))
+        {
+            if(counter != null){
+            counter.addValue(10);
+            getWorld().removeObject(this);
+            }
         }
+
+       } 
+       
+       
+        /**if( actor1 != null ){
+=======
         s
         if( actor1 != null ){
+>>>>>>> f3511e1b04601a9f1988f0256a4cd48577aed815
             getWorld().removeObject( this );
         }      
        
@@ -41,15 +65,12 @@ public class heart extends Actor
         
         if( actor3 != null ){
             getWorld().removeObject( this );
-        } 
-        */
-        
-        
-        
-        
-        // Add your action code here.
-    }   
+<<<<<<< HEAD
+        }**/ 
+       
+      }   
+    
+    }  
 
-}
 
 
