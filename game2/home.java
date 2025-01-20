@@ -38,4 +38,3 @@ public void act()
         showText( "press to 1 or 2 or 3", 100, 50 );
     }
 }
-
