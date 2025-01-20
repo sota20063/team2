@@ -35,9 +35,17 @@ public class MyWorld extends World
             addObject( new musi_003(), 300, 200);
             addObject( new A3(), 300, 220);
         }
-
-        
+        for(int i=0; i<5; i++){
+           int A = 50;
+           int B = 800;
+           int x = A + (int)(Math.random()*((B-A)+1));
+           A=0;
+           B=450;
+           int y = A + (int)(Math.random()*((B-A)+1));
+           addObject(new money(), x,y);
+        }
         for(int i=0;i<5;i++){
+
 
            int[] x = {50,200,300,400,500};
             int[] y = {50,250};
@@ -55,6 +63,7 @@ public class MyWorld extends World
           A = 0;
          B = 4;
          xx = A + (int)(Math.random()*((B-A)+1));
+
         A=0;
         B=1;
          yy = A + (int)(Math.random()*((B-A)+1));
@@ -66,9 +75,5 @@ public class MyWorld extends World
          return counter;   
     }
 }
-
-
-    
-    
 
 

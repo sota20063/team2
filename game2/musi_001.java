@@ -1,3 +1,4 @@
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -18,10 +19,7 @@ public class musi_001 extends Actor
 
 
 
-
         getImage().scale( 50, 100 );
-
-
 
 
         int x = getX();
@@ -43,5 +41,3 @@ public class musi_001 extends Actor
         }
     }    
 }
-
-
