@@ -32,12 +32,9 @@ public class heart extends Actor
         setRotation(C);
         move(6);
         
-<<<<<<< HEAD
-       if( isAtEdge() ){
-=======
-        /*削除のプログラム部分でnullpointerが出で来るので3回目のスプリントで追加する
+
+       
         if( isAtEdge() ){
->>>>>>> f3511e1b04601a9f1988f0256a4cd48577aed815
             getWorld().removeObject( this );
        }
        if(getWorld() != null){
@@ -50,15 +47,15 @@ public class heart extends Actor
             getWorld().removeObject(this);
             }
         }
-<<<<<<< HEAD
+
        } 
        
        
         /**if( actor1 != null ){
-=======
-        s
+
+        
         if( actor1 != null ){
->>>>>>> f3511e1b04601a9f1988f0256a4cd48577aed815
+
             getWorld().removeObject( this );
         }      
        
@@ -68,29 +65,14 @@ public class heart extends Actor
         
         if( actor3 != null ){
             getWorld().removeObject( this );
-<<<<<<< HEAD
+
         }**/ 
        
-        int A = 0;
-        int B = 360;
-        int C = A + (int)(Math.random()*((B-A)+1));
- 
-        setRotation(C);
-        move(6);
-        
-        
-        // Add your action code here.
       }   
     
-=======
-        } 
-        */
+
+     } 
         
-        
-        
-        
-        // Add your action code here.
-    }   
->>>>>>> f3511e1b04601a9f1988f0256a4cd48577aed815
-}
+
+
 
