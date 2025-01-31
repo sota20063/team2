@@ -72,9 +72,6 @@ public class heart extends Actor
       }   
     
     } 
-
-     
+ 
         
-
-
 
