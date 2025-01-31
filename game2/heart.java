@@ -24,6 +24,7 @@ public class heart extends Actor
         Actor actor2 = getOneIntersectingObject( musi_002.class );
         Actor actor3 = getOneIntersectingObject( musi_003.class );
         
+        
         getImage().scale( 100, 100 );
         int A = 0;
         int B = 360;
@@ -33,14 +34,14 @@ public class heart extends Actor
         move(6);
         
 
-        //削除のプログラム部分でnullpointerが出で来るので3回目のスプリントで追加する
+
         if( isAtEdge() ){
             getWorld().removeObject( this );
        }
        if(getWorld() != null){
             int x = getX();
             int y = getY();
-        if(isTouching(musi_001.class)|| isTouching(musi_002.class) || isTouching(musi_003.class))
+        if(isTouching(A.class)|| isTouching(A2.class) || isTouching(A3.class))
         {
             if(counter != null){
             counter.addValue(10);
@@ -52,10 +53,10 @@ public class heart extends Actor
        
        
         /**if( actor1 != null ){
-=======
-        s
+
+        
         if( actor1 != null ){
->>>>>>> f3511e1b04601a9f1988f0256a4cd48577aed815
+
             getWorld().removeObject( this );
         }      
        
@@ -65,12 +66,15 @@ public class heart extends Actor
         
         if( actor3 != null ){
             getWorld().removeObject( this );
-<<<<<<< HEAD
+
         }**/ 
        
       }   
     
-    }  
+    } 
+
+     
+        
 
 
 
